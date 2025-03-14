@@ -40,16 +40,16 @@
 
 ## Reflection
 1. **What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance?**
-> JMeter tests overall system performance under load, while IntelliJ Profiler analyzes code execution to find inefficiencies at a granular level. JMeter helps identify system-wide bottlenecks, whereas profiling pinpoints specific slow methods or memory issues.
+* JMeter tests overall system performance under load, while IntelliJ Profiler analyzes code execution to find inefficiencies at a granular level. JMeter helps identify system-wide bottlenecks, whereas profiling pinpoints specific slow methods or memory issues.  
 2. **How does the profiling process help you in identifying and understanding the weak points in your application?**
-> Profiling helps by providing insights into CPU usage, memory allocation, and execution time of different methods, making it easier to identify inefficient code and performance bottlenecks.
+* Profiling helps by providing insights into CPU usage, memory allocation, and execution time of different methods, making it easier to identify inefficient code and performance bottlenecks.
 3. **Do you think IntelliJ Profiler is effective in assisting you to analyze and identify bottlenecks in your application code?**
-> Yes, IntelliJ Profiler effectively detects performance issues by visualizing hotspots, tracking memory leaks, and showing method execution times, making it easier to optimize the code.
+* Yes, IntelliJ Profiler effectively detects performance issues by visualizing hotspots, tracking memory leaks, and showing method execution times, making it easier to optimize the code.
 4. **What are the main challenges you face when conducting performance testing and profiling, and how do you overcome these challenges?**
-> Challenges include handling large data sets, interpreting profiling results, and ensuring accurate test conditions. These are overcome by running tests in controlled environments, using profiling filters, and validating findings with multiple runs.
+* Challenges include handling large data sets, interpreting profiling results, and ensuring accurate test conditions. These are overcome by running tests in controlled environments, using profiling filters, and validating findings with multiple runs.
 5. **What are the main benefits you gain from using IntelliJ Profiler for profiling your application code?**
-> The main benefits include pinpointing inefficient methods, detecting memory leaks, and gaining detailed execution insights, helping to improve application performance through targeted optimizations.
+The main benefits include pinpointing inefficient methods, detecting memory leaks, and gaining detailed execution insights, helping to improve application performance through targeted optimizations.
 6. **How do you handle situations where the results from profiling with IntelliJ Profiler are not entirely consistent with findings from performance testing using JMeter?**
-> If profiling and JMeter results differ, profiling is re-run under load conditions similar to JMeter tests to align results. Discrepancies are analyzed to determine whether they stem from test setup differences or specific code behaviors.
+* If profiling and JMeter results differ, profiling is re-run under load conditions similar to JMeter tests to align results. Discrepancies are analyzed to determine whether they stem from test setup differences or specific code behaviors.
 7. **What strategies do you implement in optimizing application code after analyzing results from performance testing and profiling? How do you ensure the changes you make do not affect the application's functionality?**
-> Optimization is done by refactoring inefficient code, such as reducing redundant computations, improving loop structures, and optimizing data handling. All changes are carefully tested to ensure they maintain the application's functionality while improving performance.
+* Optimization is done by refactoring inefficient code, such as reducing redundant computations, improving loop structures, and optimizing data handling. All changes are carefully tested to ensure they maintain the application's functionality while improving performance.
