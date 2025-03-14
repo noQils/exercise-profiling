@@ -7,7 +7,6 @@ import com.advpro.profiling.tutorial.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -42,9 +41,9 @@ public class StudentService {
 
     public String joinStudentNames() {
         List<Student> students = studentRepository.findAll();
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (Student student : students) {
-            result += student.getName() + ", ";
+            result.append(student.getName()).append(", ");
         }
         return result.substring(0, result.length() - 2);
     }
